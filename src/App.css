@@ -114,13 +114,13 @@ background-position-x:33rem;
 /*BENFICIO*/
   .about, .registration-form {
   padding: 50px 20px;
-
+background-color: #ffffff;
 }
 
 .benefits {
   text-align: center;
   margin: 5px 0;
-background-color: #19e63b00;
+background-color: #ffffff;
 }
 
 .benefits-list {
@@ -203,11 +203,9 @@ max-width: 200px;
 }
 
 
-
-
 /*derteller del curos*/
 .details{
-  background-color: #19e63b00;
+  background-color: #ffffff;
   justify-content: space-around;
   align-items: center;
   display: flex;
@@ -279,3 +277,6 @@ flex-direction: column;
 }
 /* Estilos básicos existentes aquí */
 
+.testimonials{
+  background-color: #fff;
+}

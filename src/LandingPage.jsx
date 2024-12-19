@@ -137,7 +137,7 @@ const [showAlert, setShowAlert] = useState(false);
 const [alertMessage, setAlertMessage] = useState("");
 
 
-
+/*PNEFASLSEAQI*/
 
 /*CATGDSAO*/
 const [cargandop, setCargandop] = useState(false)
@@ -164,7 +164,7 @@ setCargandop(!cargandop)
       <section className="hero">
         <div className="hero-content">
           <h1>Conviértete en un experto en ISO 9001:2015</h1>
-          <p>Aumenta la calidad de tu empresa con nuestra certificación avalada por expertos</p>
+          <p>Aumenta la calidad de tu empresa con nuestra capacitacion avalada por expertos</p>
           <button 
           onClick={() => document.getElementById('registration').scrollIntoView({ behavior: 'smooth' })}
           className="cta-button">Regístrate Ahora</button>
@@ -185,7 +185,7 @@ setCargandop(!cargandop)
         </div>
         <div className="conteitepr2" data-aos="fade-up">
         <i class='bx bx-line-chart'></i>
-          <li>Mora tu productividad</li>
+          <li>Mejora tu productividad</li>
         </div>
      
         <div className="conteitepr2" data-aos="fade-up">
@@ -289,7 +289,9 @@ setCargandop(!cargandop)
 {
   cargandop?
   
-  <p>Cargansdop</p>
+<section>
+  <img className="clientitem2"  src="https://res.cloudinary.com/db8e98ggo/image/upload/v1734580266/PROSESANDO_1_l4a6ag.gif" alt="" />
+</section>
   :     
       <section className="registration-form" id="registration"  >
         <h2>Inscríbete ahora</h2>
@@ -318,7 +320,7 @@ setCargandop(!cargandop)
 
       {/* Footer Section */}
       <footer className="footer">
-        <p>© 2024 Sicmas consultin grup | Todos los derechos reservados</p>
+        <p>© 2024 Sicmas consultin group | Todos los derechos reservados</p>
         <div className="social-media">
           <a href="https://www.facebook.com/profile.php?id=61562442796480">Facebook</a>
           <a href="https://www.linkedin.com/in/sicmas-consulting-group-gestor-ambiental-1771ba2b0/">LinkedIn</a>
